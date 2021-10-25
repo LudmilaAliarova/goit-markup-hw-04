@@ -147,11 +147,11 @@ header {
 }
 .header-contact-link {
   display: flex;
-  margin-right: 10px;
 }
 .header-contact-icon {
   fill: var(--text-third-color);
   text-decoration: none;
+  margin-right: 10px;
 }
 
 .menu-link {
@@ -169,13 +169,8 @@ header {
   color: var(--text-third-color);
 }
 
-.header-contact-item:hover .contact-link,
-.header-contact-item:focus .contact-link {
-  color: var(--accent-color);
-}
-
-.header-contact-item:hover .header-contact-icon,
-.header-contact-item:focus .header-contact-icon {
+.change-color:hover .header-contact-icon,
+.change-color:focus .header-contact-icon {
   fill: var(--accent-color);
 }
 
