@@ -137,18 +137,17 @@ header {
   display: flex;
   margin-left: auto;
   text-decoration: none;
- }
+}
 .header-contact-item {
   display: flex;
-  
-  }
+}
 
 .header-contact-item:not(:last-child) {
   margin-right: 50px;
 }
 .header-contact-link {
   display: flex;
-  }
+}
 .header-contact-icon {
   fill: var(--text-third-color);
   text-decoration: none;
